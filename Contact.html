@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <p>Kunal Gupta</p>
+    <p>My Phone No.</p>
+    <p>My Address</p>
+
+    <form class="" action="index.html" method="post">   <!-- for creating a form -->
+      <label for="">Your Name: </label>  <!-- for displaying the label of the form -->
+      <input type="text" name="" value="">   <!-- for accepting text from user  -->
+      <input type="color" name="" value="">  <!-- type = color to add a color picker --><br>
+      <label>Do you want to sign up?</label>
+      <input type="checkbox" name="" value=""> <!-- type = checkbox to add a checkbox  --><br>
+      <label for="">Password</label>
+      <input type="password" name="" value="">  <!-- type = password to get * in text -->
+      <input type="Submit" name="" >  <!-- removed VALUE set type as Submit to create a Button named Submit  -->
+    </form>
+    <br>
+    <br>
+
+    <form action="mailto:kunal.unparalled@gmail.com" method="post" enctype="text/plain"> <!-- to submit form and send details to this email id , also deleted class and added enctype to have plain text encryption here to get plain text in mail app when submitted-->
+      <label for="">Your Name:</label>
+      <input type="text" name="Your Name" value=""><br><br> <!-- change the name attribute to give the lable name for the entered field in  the mail app-->
+      <label for="">Your Email Id:</label>
+      <input type="email" name="Your Email" value=""><br><br>
+      <label for="">Your Message</label><br>
+      <textarea name="name" rows="10" cols="30"></textarea> <!-- to create a text input with custom size --><br>
+      <input type="submit" name="" >
+
+    </form>
+
+  </body>
+</html>
